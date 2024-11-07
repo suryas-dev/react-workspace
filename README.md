@@ -42,4 +42,35 @@ react apps
 ## Hooks
 
 - `useState` -> Hooks are functions that let you hook into React state and lifecycle.
+- `useEffect` -> Runs side effects after render, useful for data fetching, subscriptions, or DOM updates.
+- `useRef` -> Provides a mutable ref object to directly access a DOM element.
+- `useId` -> Generates a unique ID for accessibility or other unique identifier needs.
+- `useContext` -> Allows you to subscribe to React context without introducing nesting.
+- `useReducer` -> An alternative to `useState` for managing complex state logic.
+- `useMemo` -> Memoizes a value so that it is only recomputed when one of the dependencies has changed.
+- `useCallback` -> Returns a memoized callback function that only changes if one of the dependencies has changed.
+- `useLayoutEffect` -> Similar to `useEffect`, but it fires synchronously after all DOM mutations.
+- `useImperativeHandle` -> Customizes the instance value that is exposed when using `ref` in parent components.
+- `useDebugValue` -> Can be used to display a label for custom hooks in React DevTools.
 
+## React Router
+
+- React Router is a library for routing in React apps.
+- It allows navigation between views, changes the browser URL, and syncs the UI with the URL.
+- Routes are declared using components, making them easy to manage.
+- Supports dynamic routing, nested routes, and route parameters.
+- Features include lazy loading, route guards, and custom route rendering.
+
+
+## React roter hooks
+### Important Hooks in React Router
+
+- `useHistory` -> Provides access to the history instance that you may use to navigate.
+- `useLocation` -> Returns the current location object, which represents the current URL.
+- `useParams` -> Returns an object of key/value pairs of URL parameters.
+- `useRouteMatch` -> Attempts to match the current URL to a given path and returns match data.
+- `useNavigate` -> Allows programmatic navigation between routes.
+- `useLoaderData` -> Accesses pre-fetched data for the current route.
+
+
+These hooks are essential for handling navigation, accessing route parameters, and managing the current location in a React Router application.
